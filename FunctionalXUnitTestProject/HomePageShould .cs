@@ -6,8 +6,10 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using WebApplication;
 using Xunit;
 
-namespace FunctionalTests {
-    public class HomePageShould : IClassFixture<WebApplicationFactory<Startup>> {
+namespace FunctionalTests
+{
+    public class HomePageShould : IClassFixture<WebApplicationFactory<Startup>>
+    {
         private readonly HttpClient _client;
 
         public HomePageShould(WebApplicationFactory<Startup> factory)
