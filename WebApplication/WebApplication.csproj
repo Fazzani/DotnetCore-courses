@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <DockerTargetOS>Linux</DockerTargetOS>
+    <UserSecretsId>1d7d2df5-0f76-4722-a145-e3d7abb404a8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="0.1.1646902" />
+  </ItemGroup>
+
+</Project>
