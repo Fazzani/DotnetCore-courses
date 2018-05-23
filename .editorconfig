@@ -1,0 +1,18 @@
+# Pour en savoir plus sur .editorconfig voir https://aka.ms/editorconfigdocs
+root = true
+
+# All files
+[*]
+indent_style = space
+
+# Xml files
+[*.xml]
+indent_size = 2
+
+[*.{cs,vb}]
+indent_size = 4
+trim_trailing_whitespace = true
+dotnet_sort_system_directives_first = true
+
+[*.cs]
+csharp_new_line_before_open_brace = methods
