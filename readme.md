@@ -1,12 +1,10 @@
 # TODO
 
-- [ ] stackalloc
-- [ ] fixed
-- [ ] ref c# 7
-- [ ] c# 7.3
-- [x] dotnet script
+- [ ] [Scrutor][Scrutor] : Assembly scanning and decoration extensions for Microsoft.Extensions.DependencyInjection
 - [ ] SourceLink
 - [ ] [ML.net][ml.net]
+- [ ] c# (7.3, ref, fixed, stackalloc)
+- [x] dotnet script
 - [x] [CLSCompliant](#CLSCompliant)
 - [x] [.editorconfig][editorconfig]
 - [x] [Heap/Stack][heapStack]
@@ -20,6 +18,15 @@ You mark classes with the CLSCompliant attribute when you want to make sure it c
 - Class names and member names should not differ only based on their case. For example we cannot have two methods named MyMethod and MYMETHOD.
 - Only properties and methods may be overloaded, Operators should not be overloaded.
 
+## Archi Microservices
+
+- SOLID
+- DDD
+- CQRS
+- [Sagas][Sagas] Patterns for long-running processes
+
 [editorconfig]:https://docs.microsoft.com/fr-fr/visualstudio/ide/create-portable-custom-editor-options
 [heapStack]:https://www.gribblelab.org/CBootCamp/7_Memory_Stack_vs_Heap.html
 [ml.net]:https://www.microsoft.com/net/learn/apps/machine-learning-and-ai/ml-dotnet/get-started/windows
+[Sagas]:https://docs.particular.net/nservicebus/sagas/
+[Scrutor]:https://github.com/khellang/Scrutor
