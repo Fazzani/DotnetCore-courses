@@ -1,11 +1,17 @@
 # TODO
 
 * [ ] [Scrutor][scrutor] : Assembly scanning and decoration extensions for Microsoft.Extensions.DependencyInjection
+* [ ] InMemmory for database with seed default data
+* [ ] Ui testing
+* [ ] [orleans][orleans] or [akka.net][akka.net] for concurrent & distributed applications
 * [ ] SourceLink
 * [ ] [ML.net][ml.net]
 * [ ] c# (7.3, ref, fixed, stackalloc)
+* [ ] [Prometheus.net][prometheus]
+* [ ] [Faker][faker]
 * [ ] Ab testing
 * [ ] Features flipping
+* [ ] [MessagePack][messagepack]
 * [x] dotnet script
 * [x] [CLSCompliant](#CLSCompliant)
 * [x] [.editorconfig][editorconfig]
@@ -22,13 +28,19 @@ You mark classes with the CLSCompliant attribute when you want to make sure it c
 
 ## Archi Microservices
 
-* SOLID
+* [S.O.L.I.D][solid]
 * DDD
 * CQRS
 * [Sagas][sagas] Patterns for long-running processes
 
+[solid]: https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
 [editorconfig]: https://docs.microsoft.com/fr-fr/visualstudio/ide/create-portable-custom-editor-options
 [heapstack]: https://www.gribblelab.org/CBootCamp/7_Memory_Stack_vs_Heap.html
 [ml.net]: https://www.microsoft.com/net/learn/apps/machine-learning-and-ai/ml-dotnet/get-started/windows
 [sagas]: https://docs.particular.net/nservicebus/sagas/
 [scrutor]: https://github.com/khellang/Scrutor
+[prometheus]: https://blog.developershelf.com/2018/01/09/asp-net-core-metrics/
+[orleans]: https://github.com/dotnet/orleans
+[akka.net]: https://getakka.net/
+[messagepack]: https://msgpack.org/
+[faker]: https://github.com/bchavez/Bogus
