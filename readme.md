@@ -5,7 +5,7 @@
 * [ ] [orleans][orleans] or [akka.net][akka.net] for concurrent & distributed applications
 * [ ] SourceLink
 * [ ] [ML.net][ml.net]
-* [ ] c# (7.3, ref, fixed, stackalloc)
+* [ ] c# (7.3, ref, fixed, stackalloc, _, local functions, StartUpFilter, SetCompatibilityVersion)
 * [ ] [IHostedService][ihostservice]
 * [ ] [Onion][onion]
 * [ ] [Prometheus.net][prometheus]
