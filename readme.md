@@ -3,11 +3,11 @@
 * [ ] [Scrutor][scrutor] : Assembly scanning and decoration extensions for Microsoft.Extensions.DependencyInjection
 * [ ] InMemmory for database with seed default data
 * [ ] [orleans][orleans] or [akka.net][akka.net] for concurrent & distributed applications
-* [ ] SourceLink
+* [ ] SourceLink packages
 * [ ] [ML.net][ml.net]
-* [ ] c# (7.3, ref, fixed, stackalloc, _, local functions, StartUpFilter, SetCompatibilityVersion)
+* [ ] c# (7.3, ref, fixed, stackalloc, \_, local functions, StartUpFilter, SetCompatibilityVersion)
 * [ ] [IHostedService][ihostservice]
-* [ ] [Onion][onion]
+* [ ] [Onion][onion] architecture
 * [ ] [Prometheus.net][prometheus]
 * [ ] [Faker][faker]
 * [ ] Ui testing
@@ -49,5 +49,5 @@ You mark classes with the CLSCompliant attribute when you want to make sure it c
 [akka.net]: https://getakka.net/
 [messagepack]: https://msgpack.org/
 [faker]: https://github.com/bchavez/Bogus
-[ihostservice]:https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/multi-container-microservice-net-applications/background-tasks-with-ihostedservice
+[ihostservice]: https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/multi-container-microservice-net-applications/background-tasks-with-ihostedservice
 [onion]: https://dzone.com/articles/onion-architecture-is-interesting
